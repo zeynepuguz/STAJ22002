@@ -45,9 +45,6 @@ yapısı kullanılmıştır.
 
 ## 📈 Sonuçlar
 
-###LSTM Modelleri Karşılaştırma Grafikleri
-
-
 ### 1️⃣ Temel Model Karşılaştırmaları
 
 | Model | Özellikler | Val Accuracy | Macro F1 | Eğitim Notları |
@@ -56,6 +53,10 @@ yapısı kullanılmıştır.
 | Stacked LSTM (3 layer) | 3×LSTM (128-128-64), Dropout, Dense | %76 | %76 | Daha derin yapı |
 | CNN-LSTM | Conv1D + MaxPool + LSTM(128) + Dense(3) |  %68 | %69 | Hızlı öğrenme |
 | BiLSTM | Embedding(128), BiLSTM(128), Dense(3) | %76 | %76 | Çift yönlü bağlam |
+
+### LSTM Modelleri Karşılaştırma Grafikleri
+
+![Karşılaştırma](./image.png)
 
 ---
 ## ⚙️ Kurulum ve Çalıştırma
