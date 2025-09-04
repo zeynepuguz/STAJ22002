@@ -1,4 +1,4 @@
-# 🇹🇷 Türkçe Duygu Analizi — LSTM Tabanlı Model Karşılaştırmaları
+# Türkçe Duygu Analizi — LSTM Tabanlı Model Karşılaştırmaları
 
 Bu proje, Türkçe e-ticaret yorumları üzerinde **duygu analizi** (negatif / nötr / pozitif) gerçekleştirmek amacıyla geliştirilmiştir.  
 Çalışmada birden fazla veri seti birleştirilmiş, **Zemberek** ile morfolojik analiz & tokenizasyon uygulanmış, **NLPaug** ile BERT tabanlı bağlamsal veri artırma yapılmış ve farklı derin öğrenme mimarileri karşılaştırılmıştır.
