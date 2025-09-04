@@ -49,21 +49,10 @@ yapısı kullanılmıştır.
 
 | Model | Özellikler | Val Accuracy | Macro F1 | Eğitim Notları |
 |---|---|---:|---:|---|
-| LSTM (tek katmanlı) | Embedding(128), LSTM(128), Dropout(0.5), Dense(3) | — | — | Baseline |
-| Stacked LSTM (3 layer) | 3×LSTM (128-128-64), Dropout, Dense | — | — | Daha derin yapı |
-| CNN-LSTM | Conv1D + MaxPool + LSTM(128) + Dense(3) | — | — | Hızlı öğrenme |
-| BiLSTM | Embedding(128), BiLSTM(128), Dense(3) | — | — | Çift yönlü bağlam |
-
----
-
-### 2️⃣ Gelişmiş Modeller (Opsiyonel)
-
-| Model | Özellikler | Val Accuracy | Macro F1 | Eğitim Notları |
-|---|---|---:|---:|---|
-| Logistic Regression | TF-IDF + LR | — | — | Sklearn baseline |
-| TextCNN | Embedding + Conv1D/MaxPool + Dense | — | — | Keras/TF uygulaması |
-| DistilBERT (Türkçe) | `dbmdz/bert-base-turkish-cased` | — | — | Transformers fine-tuning |
-| mBERT / XLM-R | Çok dilli BERT | — | — | GPU önerilir |
+| LSTM (tek katmanlı) | Embedding(128), LSTM(128), Dropout(0.5), Dense(3) | %77 | %76.8 | Baseline |
+| Stacked LSTM (3 layer) | 3×LSTM (128-128-64), Dropout, Dense | %76 | %76 | Daha derin yapı |
+| CNN-LSTM | Conv1D + MaxPool + LSTM(128) + Dense(3) |  %68 | %69 | Hızlı öğrenme |
+| BiLSTM | Embedding(128), BiLSTM(128), Dense(3) | %76 | %76 | Çift yönlü bağlam |
 
 ---
 ## ⚙️ Kurulum ve Çalıştırma
