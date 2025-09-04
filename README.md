@@ -1,5 +1,8 @@
 # 🇹🇷 Türkçe Duygu Analizi — LSTM Tabanlı Model Karşılaştırmaları
 
+### 📑 Proje Sunum Dosyası
+[Sunumu buradan görüntüle]([./presentation.pdf](https://docs.google.com/presentation/d/1wZSNX02-QfALgDdLNJR7CMH_XOHIFqiKeDa2bdd7g_8/edit?usp=sharing))
+
 Bu proje, Türkçe e-ticaret yorumları üzerinde **duygu analizi** (negatif / nötr / pozitif) gerçekleştirmek amacıyla geliştirilmiştir.  
 Çalışmada birden fazla veri seti birleştirilmiş, **Zemberek** ile morfolojik analiz & tokenizasyon uygulanmış, **NLPaug** ile BERT tabanlı bağlamsal veri artırma yapılmış ve farklı derin öğrenme mimarileri karşılaştırılmıştır.
 
@@ -59,8 +62,5 @@ yapısı kullanılmıştır.
 
 ### 1. Bağımlılıklar
 ```bash
-pip install tensorflow pandas numpy scikit-learn nltk jpype1 nlpaug
-
-### 📑 Sunum Dosyası
-[Sunumu buradan görüntüle]([./presentation.pdf](https://docs.google.com/presentation/d/1wZSNX02-QfALgDdLNJR7CMH_XOHIFqiKeDa2bdd7g_8/edit?usp=sharing))
+pip install tensorflow pandas numpy scikit-learn nltk jpype1 nlpaug 
 
